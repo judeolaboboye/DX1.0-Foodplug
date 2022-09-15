@@ -1,0 +1,51 @@
+@media screen and (max-width:1100px) {
+    /* ====Header Section Starts Here====*/
+
+
+    .nav-desktop{
+        display: none;
+    }
+
+    .nav-mobile{
+        display: flex;
+    }
+
+    /* ====Header Section Starts Here====*/
+
+
+
+    /* ====Header Banner Section Starts Here====*/
+
+    .banner-content-container {
+        padding-top: 95px;
+    }
+
+    .banner-text-container {
+        width: 100%;
+    }
+
+
+    /* ====Header Banner Section Starts Here====*/
+
+/* about us section starts here */
+.about-us-container {
+    justify-content: center;
+}
+
+.about-us-cards-img {
+    min-width: 350px;
+    height: 285px;
+}
+
+.about-us-cards-text {
+    width: 90%;
+    margin: 20px 0;
+}
+
+/* about us section starts here */
+
+/* explore foods section starts here */
+
+
+/* explore foods section starts here */
+}
