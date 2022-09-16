@@ -45,7 +45,57 @@
 /* about us section starts here */
 
 /* explore foods section starts here */
-
+.food-card-item{
+    margin: 20px 0;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
 
 /* explore foods section starts here */
+
+
+/* faq section starts here */
+.faq-item {
+    min-width: 100%;
+    padding: 0 10px;
+}
+
+/* faq section ends here */
+
+
+/* parallax section Starts here */
+.parallax {
+    flex-direction: column;
+    padding: 0 25px;
+    text-align: center;
+}
+
+/* parallax section endss here */
+
+/* footer section Starts here */
+
+
+footer{
+    flex-direction: column;
+}
+
+.footer-icon-container{
+    margin: 10px 0;
+}
+
+footer p{
+    text-align: center;
+}
+
+/* footer section ends here */
+
+
+
+
+
+
+
+
+
+
 }
