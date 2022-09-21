@@ -34,7 +34,7 @@ html {
 
 .btn-red:hover {
   background: var(--white-color);
-  color: var(--main-colors);
+  color: var(--main-color);
 }
 
 .btn-light {
@@ -192,12 +192,15 @@ header {
   position: fixed;
   right: 0;
   top: 0;
-  display: none;
+  /* display: none; */
+  transition: all 0.4s ease;
+  transform: translateX(102%);
   z-index: 3;
 }
 
 .showmobilelinks {
-    display: block;
+    transform: translateX(0);
+    /* display: block; */
 }
 .mobile-links-content ul {
     list-style: none;
